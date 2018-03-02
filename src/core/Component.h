@@ -31,6 +31,8 @@
 #endif
 
 #include "ColorDecorator.h"
+#include "DebugDecorator.h"
+#include "BackgroundDecorator.h"
 #include "DXFLinearExtrude.h"
 #include "DXFRotateExtrude.h"
 #include "Imported.h"
@@ -169,6 +171,57 @@ public:
     {
         SharedPtr<AbstractObject> aux = get();
         set(ColorDecorator::create(aux, r, g, b, a));
+        return *this;
+    }
+    /**
+   * \brief Debug-modify the component.
+   *
+   * This method create a copied component, but with debug modifier
+   *
+   * \return a debug decoration of the object.
+   */
+    Component debugCopy() const
+    {
+        SharedPtr<AbstractObject> aux = get();
+        return Component(DebugDecorator::create());
+    }
+    /**
+   * \brief Debug-modify the component.
+   *
+   * This method debug-modifies the component "in place".
+   *
+   * \return the component debug decorated
+   */
+    Component & debug()
+    {
+        SharedPtr<AbstractObject> aux = get();
+        set(DebugDecorator::create());
+        return *this;
+    }
+
+    /**
+   * \brief Background-modify the component.
+   *
+   * This method create a copied component, but with background modifier
+   *
+   * \return a background decoration of the object.
+   */
+    Component backgroundCopy() const
+    {
+        SharedPtr<AbstractObject> aux = get();
+        return Component(BackgroundDecorator::create());
+    }
+    /**
+   * \brief Background-modify the component.
+   *
+   * This method background-modifies the component "in place".
+   *
+   * \return the component background decorated
+   */
+    Component & background()
+    {
+        SharedPtr<AbstractObject> aux = get();
+        set(BackgroundDecorator::create());
         return *this;
     }
 
