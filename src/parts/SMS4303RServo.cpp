@@ -1,8 +1,8 @@
 #include "SMS4303RServo.h"
-#include <components/Cube.h>
-#include <core/Union.h>
-#include <core/Difference.h>
-#include <components/Cylinder.h>
+#include "../components/Cube.h"
+#include "../core/Union.h"
+#include "../core/Difference.h"
+#include "../components/Cylinder.h"
 
 SMS4303RServo::SMS4303RServo(bool fill, bool cable_space, double fill_length) :
     GenericServo(GenericServo::Data(),fill,cable_space,fill_length)

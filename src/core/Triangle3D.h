@@ -30,8 +30,8 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/Point3D.h>
-#include <core/Polygon.h>
+#include "Point3D.h"
+#include "Polygon.h"
 
 /**
  * \brief 3D triangle primitive object

@@ -17,9 +17,9 @@
 *
 */
 
-#include <parts/Link.h>
-#include <components/Cylinder.h>
-#include <core/Difference.h>
+#include "Link.h"
+#include "../components/Cylinder.h"
+#include "../core/Difference.h"
 
 Component Link::build()
 {

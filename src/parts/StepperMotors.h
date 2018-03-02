@@ -21,7 +21,7 @@
 
 #include "../core.h"
 
-#include <core/AbstractPart.h>
+#include "../core/AbstractPart.h"
 
 #ifdef WIN32
 #ifdef OOMLParts_EXPORTS

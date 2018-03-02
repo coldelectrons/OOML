@@ -17,12 +17,12 @@
 *
 */
 
-#include <parts/BallWheelHolder.h>
-#include <components/Cylinder.h>
-#include <components/Sphere.h>
-#include <components/Cube.h>
-#include <core/Difference.h>
-#include <core/Intersection.h>
+#include "BallWheelHolder.h"
+#include "../components/Cylinder.h"
+#include "../components/Sphere.h"
+#include "../components/Cube.h"
+#include "../core/Difference.h"
+#include "../core/Intersection.h"
 
 Component BallWheelHolder::build()
 {

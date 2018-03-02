@@ -17,4 +17,4 @@
 *
 */
 
-#include <components/RegularPiramid.h>
+#include "RegularPiramid.h"

@@ -17,7 +17,7 @@
 *
 */
 
-#include <components/Cylinder.h>
-#include <core/IndentWriter.h>
+#include "Cylinder.h"
+#include "../core/IndentWriter.h"
 
 #include <iostream>

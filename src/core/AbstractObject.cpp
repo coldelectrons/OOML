@@ -17,7 +17,7 @@
 *
 */
 
-#include <core/AbstractObject.h>
+#include "AbstractObject.h"
 
 bool AbstractObject::_debugFlag = false;
 

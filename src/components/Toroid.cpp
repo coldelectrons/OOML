@@ -17,9 +17,9 @@
 *
 */
 
-#include <components/Toroid.h>
-#include <components/Circle.h>
-#include <core/Component2D.h>
+#include "Toroid.h"
+#include "Circle.h"
+#include "../core/Component2D.h"
 
 Component Toroid::build()
 {

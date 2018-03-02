@@ -30,9 +30,9 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/AbstractObject.h>
-#include <core/IndentWriter.h>
-#include <core/SharedPtr.h>
+#include "AbstractObject.h"
+#include "IndentWriter.h"
+#include "SharedPtr.h"
 
 #include <algorithm>
 #include <vector>

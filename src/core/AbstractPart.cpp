@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/AbstractPart.h>
-#include <core/IndentWriter.h>
+#include "AbstractPart.h"
+#include "IndentWriter.h"
 
 void AbstractPart::genScad(IndentWriter& writer) const
 {

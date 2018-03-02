@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/Point2D.h>
-#include <core/IndentWriter.h>
+#include "Point2D.h"
+#include "IndentWriter.h"
 
 #include <iostream>
 

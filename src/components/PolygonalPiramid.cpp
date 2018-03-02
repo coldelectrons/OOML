@@ -17,10 +17,10 @@
 *
 */
 
-#include <components/PolygonalPiramid.h>
-#include <core/Point2D.h>
-#include <core/Polygon.h>
-#include <core/Polyhedron.h>
+#include "PolygonalPiramid.h"
+#include "../core/Point2D.h"
+#include "../core/Polygon.h"
+#include "../core/Polyhedron.h"
 
 Component PolygonalPiramid::build()
 {

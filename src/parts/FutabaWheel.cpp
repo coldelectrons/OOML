@@ -17,11 +17,11 @@
 *
 */
 
-#include <parts/FutabaWheel.h>
-#include <components/Cylinder.h>
-#include <core/Difference.h>
-#include <parts/SimpleWheel.h>
-#include <parts/FutabaS3003.h>
+#include "FutabaWheel.h"
+#include "../components/Cylinder.h"
+#include "../core/Difference.h"
+#include "SimpleWheel.h"
+#include "FutabaS3003.h"
 
 Component FutabaWheel::build()
 {

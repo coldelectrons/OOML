@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/Point3D.h>
-#include <core/IndentWriter.h>
+#include "Point3D.h"
+#include "IndentWriter.h"
 
 #include <iostream>
 

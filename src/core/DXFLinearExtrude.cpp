@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/DXFLinearExtrude.h>
-#include <core/IndentWriter.h>
+#include "DXFLinearExtrude.h"
+#include "IndentWriter.h"
 
 void DXFLinearExtrude::genScad(IndentWriter& writer) const
 {

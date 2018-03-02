@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/DXFRotateExtrude.h>
-#include <core/IndentWriter.h>
+#include "DXFRotateExtrude.h"
+#include "IndentWriter.h"
 
 void DXFRotateExtrude::genScad(IndentWriter& writer) const
 {

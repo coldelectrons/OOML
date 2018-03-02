@@ -31,7 +31,7 @@
 #define OOMLParts_EXP_DEC
 #endif
 
-#include <core/AbstractPart.h>
+#include "../core/AbstractPart.h"
 
 /**
  * \brief Arduino UNO Bounding Box

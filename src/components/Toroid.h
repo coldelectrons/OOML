@@ -30,7 +30,7 @@
 #define OOMLComponents_EXP_DEC
 #endif
 
-#include <core/AbstractPart.h>
+#include "../core/AbstractPart.h"
 
 /**
  * \brief Toroid primitive object

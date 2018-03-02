@@ -30,10 +30,10 @@
 #define OOMLComponents_EXP_DEC
 #endif
 
-#include <core/AbstractPart.h>
-#include <core/Point2D.h>
-#include <core/Polygon.h>
-#include <core/Component2D.h>
+#include "../core/AbstractPart.h"
+#include "../core/Point2D.h"
+#include "../core/Polygon.h"
+#include "../core/Component2D.h"
 
 /**
  * \brief Polygonal base prism primitive object

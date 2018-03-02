@@ -30,9 +30,9 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/Component.h>
-#include <core/LinearExtrudeDecorator.h>
-#include <core/RotateExtrudeDecorator.h>
+#include "Component.h"
+#include "LinearExtrudeDecorator.h"
+#include "RotateExtrudeDecorator.h"
 
 /**
  * \brief 2D component class.

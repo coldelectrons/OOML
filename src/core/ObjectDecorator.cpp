@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/ObjectDecorator.h>
-#include <core/IndentWriter.h>
+#include "ObjectDecorator.h"
+#include "IndentWriter.h"
 
 void ObjectDecorator::genScad(IndentWriter& writer) const
 {

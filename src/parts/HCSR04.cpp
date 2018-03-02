@@ -17,11 +17,11 @@
 *
 */
 
-#include <parts/HCSR04.h>
-#include <components/Cube.h>
-#include <components/Cylinder.h>
-#include <core/Difference.h>
-#include <components/RoundedTablet.h>
-#include <core/Union.h>
+#include "HCSR04.h"
+#include "../components/Cube.h"
+#include "../components/Cylinder.h"
+#include "../core/Difference.h"
+#include "../components/RoundedTablet.h"
+#include "../core/Union.h"
 
 

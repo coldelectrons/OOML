@@ -30,8 +30,8 @@
 #define OOMLParts_EXP_DEC
 #endif
 
-#include <core/AbstractPart.h>
-#include <components/Sphere.h>
+#include "../core/AbstractPart.h"
+#include "../components/Sphere.h"
 
 /**
  * \brief Ball Wheel Holder primitive object

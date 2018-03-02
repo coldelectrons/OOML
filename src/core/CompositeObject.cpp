@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/CompositeObject.h>
-#include <core/IndentWriter.h>
+#include "CompositeObject.h"
+#include "IndentWriter.h"
 
 void CompositeObject::genScad(IndentWriter& writer) const
 {

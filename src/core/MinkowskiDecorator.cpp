@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/MinkowskiDecorator.h>
-#include <core/IndentWriter.h>
+#include "MinkowskiDecorator.h"
+#include "IndentWriter.h"
 
 void MinkowskiDecorator::genScad(IndentWriter& writer) const
 {

@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/Difference.h>
-#include <core/IndentWriter.h>
+#include "Difference.h"
+#include "IndentWriter.h"
 
 #include <iostream>
 

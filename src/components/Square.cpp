@@ -17,8 +17,8 @@
 *
 */
 
-#include <components/Square.h>
-#include <core/IndentWriter.h>
+#include "Square.h"
+#include "../core/IndentWriter.h"
 
 #include <iostream>
 

@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/LinearExtrudeDecorator.h>
-#include <core/IndentWriter.h>
+#include "LinearExtrudeDecorator.h"
+#include "IndentWriter.h"
 
 void LinearExtrudeDecorator::genScad(IndentWriter& writer) const
 {

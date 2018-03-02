@@ -30,10 +30,10 @@
 #define OOMLComponents_EXP_DEC
 #endif
 
-#include <components/PolygonalPrism.h>
-#include <core/Math.h>
-#include <core/Point2D.h>
-#include <core/Polygon.h>
+#include "PolygonalPrism.h"
+#include "../core/Math.h"
+#include "../core/Point2D.h"
+#include "../core/Polygon.h"
 
 #include <math.h>
 

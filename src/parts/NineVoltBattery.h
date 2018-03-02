@@ -30,8 +30,8 @@
 #define OOMLParts_EXP_DEC
 #endif
 
-#include <core/AbstractPart.h>
-#include <components/Cube.h>
+#include "../core/AbstractPart.h"
+#include "../components/Cube.h"
 
 /**
  * \brief Nine volt Battery Model

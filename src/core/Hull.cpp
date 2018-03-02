@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/Hull.h>
-#include <core/IndentWriter.h>
+#include "Hull.h"
+#include "IndentWriter.h"
 
 #include <iostream>
 

@@ -30,7 +30,7 @@
 #define OOMLParts_EXP_DEC
 #endif
 
-#include <parts/SimpleWheel.h>
+#include "SimpleWheel.h"
 
 /**
  * \brief Futaba wheel primitive object

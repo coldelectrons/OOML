@@ -17,7 +17,7 @@
 *
 */
 
-#include <components/Cube.h>
-#include <core/IndentWriter.h>
+#include "Cube.h"
+#include "../core/IndentWriter.h"
 
 #include <iostream>

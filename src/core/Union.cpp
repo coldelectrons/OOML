@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/Union.h>
-#include <core/IndentWriter.h>
+#include "Union.h"
+#include "IndentWriter.h"
 
 #include <iostream>
 

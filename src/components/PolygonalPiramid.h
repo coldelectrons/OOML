@@ -30,10 +30,10 @@
 #define OOMLComponents_EXP_DEC
 #endif
 
-#include <core/AbstractPart.h>
-#include <core/Point2D.h>
-#include <core/Point3D.h>
-#include <core/Polygon.h>
+#include "../core/AbstractPart.h"
+#include "../core/Point2D.h"
+#include "../core/Point3D.h"
+#include "../core/Polygon.h"
 
 /**
  * \brief Polygonal base piramid primitive object

@@ -17,8 +17,8 @@
 *
 */
 
-#include <components/Circle.h>
-#include <core/IndentWriter.h>
+#include "Circle.h"
+#include "../core/IndentWriter.h"
 
 #include <iostream>
 

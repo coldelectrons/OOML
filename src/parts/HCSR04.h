@@ -31,9 +31,9 @@
 #define OOMLParts_EXP_DEC
 #endif
 
-#include <core/AbstractPart.h>
-#include <components/Cube.h>
-#include <parts/USSensor.h>
+#include "../core/AbstractPart.h"
+#include "../components/Cube.h"
+#include "USSensor.h"
 
 /**
  * \brief Seeed Ultrasonic Sensor Model

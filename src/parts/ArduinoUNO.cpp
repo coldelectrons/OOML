@@ -17,13 +17,13 @@
 *
 */
 
-#include <parts/ArduinoUNO.h>
-#include <components/Cube.h>
-#include <components/Cylinder.h>
-#include <components/PolygonalPrism.h>
-#include <core/Polygon2D.h>
-#include <core/Difference.h>
-#include <core/Union.h>
+#include "ArduinoUNO.h"
+#include "../components/Cube.h"
+#include "../components/Cylinder.h"
+#include "../components/PolygonalPrism.h"
+#include "../core/Polygon2D.h"
+#include "../core/Difference.h"
+#include "../core/Union.h"
 
 Component ArduinoUNO::getBoard(double height, double holes_height, bool fill_holes, bool fourth_hole){
 

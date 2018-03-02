@@ -17,11 +17,11 @@
 *
 */
 
-#include <components/PolygonalPrism.h>
-#include <core/Point2D.h>
-#include <core/Polygon.h>
-#include <core/Polygon2D.h>
-#include <core/Polyhedron.h>
+#include "PolygonalPrism.h"
+#include "../core/Point2D.h"
+#include "../core/Polygon.h"
+#include "../core/Polygon2D.h"
+#include "../core/Polyhedron.h"
 
 Component PolygonalPrism::build()
 {

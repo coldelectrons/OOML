@@ -30,7 +30,7 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/Component.h>
+#include "Component.h"
 
 #define PART_MARGIN 0.1
 

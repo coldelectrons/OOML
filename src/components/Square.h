@@ -30,9 +30,9 @@
 #define OOMLComponents_EXP_DEC
 #endif
 
-#include <core/AbstractObject.h>
-#include <core/Component2D.h>
-#include <core/IndentWriter.h>
+#include "../core/AbstractObject.h"
+#include "../core/Component2D.h"
+#include "../core/IndentWriter.h"
 
 /**
  * \brief Square primitive object

@@ -30,8 +30,8 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/Component.h>
-#include <core/IndentWriter.h>
+#include "Component.h"
+#include "IndentWriter.h"
 
 #include <map>
 #include <string>

@@ -17,11 +17,11 @@
 *
 */
 
-#include <parts/SeeedUSSensor.h>
-#include <components/Cube.h>
-#include <components/Cylinder.h>
-#include <core/Difference.h>
-#include <components/RoundedTablet.h>
-#include <core/Union.h>
+#include "SeeedUSSensor.h"
+#include "../components/Cube.h"
+#include "../components/Cylinder.h"
+#include "../core/Difference.h"
+#include "../components/RoundedTablet.h"
+#include "../core/Union.h"
 
 

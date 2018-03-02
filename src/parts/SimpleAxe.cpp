@@ -17,8 +17,8 @@
 *
 */
 
-#include <parts/SimpleAxe.h>
-#include <components/Cylinder.h>
+#include "SimpleAxe.h"
+#include "../components/Cylinder.h"
 
 Component SimpleAxe::build()
 {

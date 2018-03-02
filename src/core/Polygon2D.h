@@ -30,13 +30,13 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/AbstractObject.h>
-#include <core/Component2D.h>
-#include <core/IndentWriter.h>
-#include <core/Point2D.h>
-#include <core/PointIndexMap.h>
-#include <core/Polygon.h>
-#include <core/SharedPtr.h>
+#include "AbstractObject.h"
+#include "Component2D.h"
+#include "IndentWriter.h"
+#include "Point2D.h"
+#include "PointIndexMap.h"
+#include "Polygon.h"
+#include "SharedPtr.h"
 
 #include <algorithm>
 #include <vector>

@@ -30,9 +30,9 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/ObjectDecorator.h>
-#include <core/IndentWriter.h>
-#include <core/SharedPtr.h>
+#include "ObjectDecorator.h"
+#include "IndentWriter.h"
+#include "SharedPtr.h"
 
 /**
  * \brief Color decorator.

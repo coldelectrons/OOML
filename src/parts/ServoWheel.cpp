@@ -17,10 +17,10 @@
 *
 */
 
-#include <parts/ServoWheel.h>
-#include <components/Cylinder.h>
-#include <core/Difference.h>
-#include <parts/SimpleWheel.h>
+#include "ServoWheel.h"
+#include "../components/Cylinder.h"
+#include "../core/Difference.h"
+#include "SimpleWheel.h"
 
 Component ServoWheel::build()
 {

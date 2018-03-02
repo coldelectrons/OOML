@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/RotateExtrudeDecorator.h>
-#include <core/IndentWriter.h>
+#include "RotateExtrudeDecorator.h"
+#include "IndentWriter.h"
 
 void RotateExtrudeDecorator::genScad(IndentWriter& writer) const
 {

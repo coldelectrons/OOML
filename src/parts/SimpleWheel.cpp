@@ -17,9 +17,9 @@
 *
 */
 
-#include <parts/SimpleWheel.h>
-#include <components/Cylinder.h>
-#include <core/Difference.h>
+#include "SimpleWheel.h"
+#include "../components/Cylinder.h"
+#include "../core/Difference.h"
 
 Component SimpleWheel::build()
 {

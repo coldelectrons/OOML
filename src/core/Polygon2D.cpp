@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/Polygon2D.h>
-#include <core/IndentWriter.h>
+#include "Polygon2D.h"
+#include "IndentWriter.h"
 
 void Polygon2D::IndexedPath::genScad(IndentWriter& writer) const
 {

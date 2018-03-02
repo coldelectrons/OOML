@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/AbstractPackage.h>
-#include <core/IndentWriter.h>
+#include "AbstractPackage.h"
+#include "IndentWriter.h"
 
 #include <fstream>
 #include <string>

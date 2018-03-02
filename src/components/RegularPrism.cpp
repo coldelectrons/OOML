@@ -17,4 +17,4 @@
 *
 */
 
-#include <components/RegularPrism.h>
+#include "RegularPrism.h"

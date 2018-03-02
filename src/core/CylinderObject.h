@@ -31,9 +31,9 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/AbstractObject.h>
-#include <core/Component.h>
-#include <core/IndentWriter.h>
+#include "AbstractObject.h"
+#include "Component.h"
+#include "IndentWriter.h"
 
 /**
  * \brief Cylinder primitive object

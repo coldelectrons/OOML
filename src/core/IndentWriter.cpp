@@ -17,7 +17,7 @@
 *
 */
 
-#include <core/IndentWriter.h>
+#include "IndentWriter.h"
 
 #include <sstream>
 

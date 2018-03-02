@@ -30,10 +30,10 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/AbstractObject.h>
-#include <core/IndentWriter.h>
-#include <core/ObjectDecorator.h>
-#include <core/SharedPtr.h>
+#include "AbstractObject.h"
+#include "IndentWriter.h"
+#include "ObjectDecorator.h"
+#include "SharedPtr.h"
 
 /**
  * \brief Mirror decorator.

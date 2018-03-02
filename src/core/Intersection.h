@@ -30,10 +30,10 @@
 #define OOMLCore_EXP_DEC
 #endif
 
-#include <core/AbstractObject.h>
-#include <core/CompositeComponent.h>
-#include <core/CompositeObject.h>
-#include <core/IndentWriter.h>
+#include "AbstractObject.h"
+#include "CompositeComponent.h"
+#include "CompositeObject.h"
+#include "IndentWriter.h"
 
 /**
  * \brief Intersection object.

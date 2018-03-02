@@ -17,8 +17,8 @@
 *
 */
 
-#include <parts/DummyPart.h>
-#include <components/Cube.h>
+#include "DummyPart.h"
+#include "../components/Cube.h"
 
 
 Component DummyPart::build()

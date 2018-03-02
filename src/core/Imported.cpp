@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/Imported.h>
-#include <core/IndentWriter.h>
+#include "Imported.h"
+#include "IndentWriter.h"
 
 #include <fstream>
 #include <iostream>

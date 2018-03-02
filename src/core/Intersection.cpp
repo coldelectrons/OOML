@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/Intersection.h>
-#include <core/IndentWriter.h>
+#include "Intersection.h"
+#include "IndentWriter.h"
 
 #include <iostream>
 

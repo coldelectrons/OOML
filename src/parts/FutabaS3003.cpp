@@ -17,12 +17,12 @@
 *
 */
 
-#include <parts/FutabaS3003.h>
-#include <components/Cube.h>
-#include <components/Cylinder.h>
-#include <core/Difference.h>
-#include <components/RoundedTablet.h>
-#include <core/Union.h>
+#include "FutabaS3003.h"
+#include "../components/Cube.h"
+#include "../components/Cylinder.h"
+#include "../core/Difference.h"
+#include "../components/RoundedTablet.h"
+#include "../core/Union.h"
 
 Component FutabaS3003::getCrown(int type, double height, bool fill_hole)
 {

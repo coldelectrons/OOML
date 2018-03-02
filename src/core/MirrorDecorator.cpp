@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/MirrorDecorator.h>
-#include <core/IndentWriter.h>
+#include "MirrorDecorator.h"
+#include "IndentWriter.h"
 
 void MirrorDecorator::genScad(IndentWriter& writer) const
 {

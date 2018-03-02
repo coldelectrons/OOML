@@ -17,8 +17,8 @@
 *
 */
 
-#include <core/ScaleDecorator.h>
-#include <core/IndentWriter.h>
+#include "ScaleDecorator.h"
+#include "IndentWriter.h"
 
 void ScaleDecorator::genScad(IndentWriter& writer) const
 {

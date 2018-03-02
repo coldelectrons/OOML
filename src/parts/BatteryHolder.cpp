@@ -17,11 +17,11 @@
 *
 */
 
-#include <parts/BatteryHolder.h>
-#include <components/Cube.h>
-#include <components/Cylinder.h>
-#include <core/Difference.h>
-#include <core/Union.h>
+#include "BatteryHolder.h"
+#include "../components/Cube.h"
+#include "../components/Cylinder.h"
+#include "../core/Difference.h"
+#include "../core/Union.h"
 
 Component BatteryHolder::build()
 {
